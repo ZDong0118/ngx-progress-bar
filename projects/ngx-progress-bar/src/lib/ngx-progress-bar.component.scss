@@ -1,0 +1,26 @@
+:host {
+    .out-container {
+        height: 20px;
+        width: 100%;
+        background: #ddd;
+        border-radius: 20px;
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .inner-container {
+        height: 20px;
+        max-width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        padding: 0px;
+        border-radius: 20px;
+    }
+
+    .inner-perc {
+        width: 100%;
+        margin-top: -20px;
+        color: #212529;
+        font-weight: bold;
+    }
+}

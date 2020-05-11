@@ -1,0 +1,16 @@
+<div>
+  <div
+    [ngStyle]="{
+			'width.%'': width,
+			background: widthColor
+		}"
+    class="inner-container"
+  ></div>
+  <div
+    class="inner-container inner-perc"
+    *ngIf="showPerc"
+    [ngStyle]="{ color: width > 100 ? 'white': '#212529'"
+  >
+    {{ width }} %
+  </div>
+</div>
